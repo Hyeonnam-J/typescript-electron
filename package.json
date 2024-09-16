@@ -9,7 +9,7 @@
     "build:index": "copyfiles -u 1 src/index.html build/",
     "build": "npm run build:ts && npm run build:assets && npm run build:index",
     "start": "npm run build && electron .",
-    "deploy": "npm run build && electron-builder"
+    "make": "npm run build && electron-builder"
   },
   "build": {
     "files": [
